@@ -1,0 +1,102 @@
+body{
+  background: #E5E5E5;
+}
+
+body::before{
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 436px;
+  background: #535971;
+  top: 0;
+  left: 0;
+}
+.page{
+  width: 750px  ;
+  margin: auto;
+  
+}
+header{
+
+}
+header h1{
+  font-family: 'Staatliches', cursive;
+  font-size: 48px;
+  line-height: 60px;
+  color: #FFFFFF;
+  margin-top: 140px;
+}
+
+header p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+  margin-bottom: 58px;
+}
+
+form{
+  background: #FFFFFF;
+  min-height: 300px;
+  margin-top: 58px;
+  border-radius: 20px 20px 0px 0px;
+  padding: 64px;
+}
+
+fieldset{
+  border: none;
+  margin-bottom: 30px;
+}
+
+fieldset legend{
+font-weight: 400;
+font-size: 24px;
+line-height: 34px;
+font-family: 'Staatliches', cursive;
+color: #535971;
+width: 100%;
+border-bottom : 1px solid #E6E6F0;
+padding-bottom: 16px;
+}
+
+.input-wrapper{
+  display: flex;
+  flex-direction: column;
+  margin-top: 36px;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: 'Poppins', sans-serif;
+  color: #4E4958;
+}
+
+.input-wrapper input{
+  height: 56px;
+  width: 100%;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px  ;
+  background: #FAFAFC;
+  margin-top: 8px;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: 'Poppins', sans-serif;
+  padding: 0 24px;
+  color: #675888;
+
+  
+}
+
+span{
+  font-size: 12px;
+  line-height: 20px;
+  color: #C1BCCC;
+  margin-left: 6px;
+}
+
+.input-wrapper span:hover{
+ color: #675888;
+}
+
+.col-3{
+  display: flex;
+}
